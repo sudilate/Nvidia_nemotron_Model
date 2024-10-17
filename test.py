@@ -3,7 +3,7 @@ import streamlit as st
 
 client = OpenAI(
   base_url = "https://integrate.api.nvidia.com/v1",
-  api_key = "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"
+  api_key = "NVIDIA_API_KEY"
 )
 
 # completion = client.chat.completions.create(
